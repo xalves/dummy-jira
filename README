@@ -1,0 +1,32 @@
+You have successfully created an Atlassian Plugin!
+
+Here are the SDK commands you'll use immediately:
+
+* atlas-run   -- installs this plugin into the product and starts it on localhost
+* atlas-debug -- same as atlas-run, but allows a debugger to attach at port 5005
+* atlas-help  -- prints description for all commands in the SDK
+
+Full documentation is always available at:
+
+https://developer.atlassian.com/display/DOCS/Introduction+to+the+Atlassian+Plugin+SDK
+
+
+To start this:
+
+atlas-run - instala este plugin e arranca uma instancia do JIRA.
+
+Neste momento estou a assistir: https://www.youtube.com/watch?v=AaK2buFSXt8
+
+Tenho uma questão na comunidade:
+https://community.atlassian.com/t5/Jira-questions/REST-plugin-development/qaq-p/1454321
+
+Tenho de investigar as seguintes páginas:
+
+https://community.atlassian.com/t5/Jira-questions/How-fetch-External-REST-web-Services-in-JIRA-Plugin-Development/qaq-p/758301
+https://confluence.atlassian.com/adminjiracloud/advanced-workflow-configuration-776636620.html?_ga=2.211703581.941016971.1599142723-953907478.1588245064
+
+
+Conclusões:
+
+Será que precisamos mesmo de um plugin? Podemos configurar um webhook! e ter um backend service à escuta!
+https://developer.atlassian.com/server/jira/platform/webhooks/
